@@ -9,4 +9,23 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+
+}
+div.profTitle {
+  padding-top: 5px;
+  background-color: #45d7e8;
+  height: 100px;
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  z-index: 10;
+}
+#piechart {
+  padding: 0;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -100px;
+  margin-left: 100px;
 }
