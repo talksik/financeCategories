@@ -4,9 +4,7 @@ google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawAgeChart);
       google.charts.setOnLoadCallback(drawIncomeChart);
       google.charts.setOnLoadCallback(drawCityChart);
-
       function drawChart() {
-
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Amount'],
           ['Dining',     38.30],
@@ -16,14 +14,10 @@ google.charts.load('current', {'packages':['corechart']});
           ['Entertainment', 20.50],
           ['Other', 320.40]
         ]);
-
-
         var options = {
           title: 'Spending Breakdown'
         };
-
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
         chart.draw(data, options);
       }
 
@@ -37,7 +31,6 @@ google.charts.load('current', {'packages':['corechart']});
           ['Entertainment', 20.50, 24.04],
           ['Other', 320.40, 45.03]
         ]);
-
         var options = {
           chart: {
             title: 'Spending Comparison',
@@ -45,12 +38,9 @@ google.charts.load('current', {'packages':['corechart']});
           },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
-
-        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
-
+        var chart = new google.charts.Bar(document.getElementById('age_chart'));
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
-
       function drawIncomeChart() {
         var data = google.visualization.arrayToDataTable([
           ['Category', 'You', 'Average Person of Your Income'],
@@ -61,7 +51,6 @@ google.charts.load('current', {'packages':['corechart']});
           ['Entertainment', 20.50, 25.92],
           ['Other', 320.40, 105.25]
         ]);
-
         var options = {
           chart: {
             title: 'Spending Comparison',
@@ -69,9 +58,7 @@ google.charts.load('current', {'packages':['corechart']});
           },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
-
-        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
-
+        var chart = new google.charts.Bar(document.getElementById('income_chart'));
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
 
@@ -85,7 +72,6 @@ google.charts.load('current', {'packages':['corechart']});
           ['Entertainment', 20.50, 11.42],
           ['Other', 320.40, 104.13]
         ]);
-
         var options = {
           chart: {
             title: 'Spending Comparison',
@@ -93,8 +79,6 @@ google.charts.load('current', {'packages':['corechart']});
           },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
-
-        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
-
+        var chart = new google.charts.Bar(document.getElementById('city_chart'));
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }

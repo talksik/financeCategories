@@ -41,6 +41,7 @@ div.firstchart {
 
 div.text {
   border-top: 1px solid #45d7e8;
+  z-index: 5;
 }
 
 div.trans {
@@ -76,4 +77,29 @@ div.catRow {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
   text-align: right;
+}
+
+div.bar {
+  overflow: hidden;
+}
+div.barchart {
+  height: 700px;
+  margin-top: -50px;
+}
+div.compareText {
+  font-family: 'Dosis', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  color: grey;
+  border-bottom: 1px solid #45d7e8;
+}
+div.diffGraphs {
+  font-family: 'Dosis', sans-serif;
+  margin: 70px 0 50px 0;
+  color: green;
+  font-size: 30px;
+  text-align: center;
+}
+.btnC {
+  width: 100px;
 }
