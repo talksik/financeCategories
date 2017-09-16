@@ -14,6 +14,7 @@ google.charts.load('current', {'packages':['corechart']});
           ['Entertainment', 2],
           ['Other',    7]
         ]);
+        
 
         var options = {
           title: 'Spending Breakdown'
