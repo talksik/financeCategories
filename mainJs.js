@@ -7,12 +7,12 @@ google.charts.load('current', {'packages':['corechart']});
 
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Amount'],
-          ['Food and Dining',     11],
-          ['Transportation',      2],
-          ['Utilities',  2],
-          ['Clothing', 2],
-          ['Entertainment', 2],
-          ['Other',7]
+          ['Food and Dining',     38.30],
+          ['Transportation',      12.01],
+          ['Utilities',  0],
+          ['Clothing', 146.25],
+          ['Entertainment', 20.50],
+          ['Other', 100.01]
         ]);
 
 
@@ -28,12 +28,12 @@ google.charts.load('current', {'packages':['corechart']});
       function drawBarChart() {
         var data = google.visualization.arrayToDataTable([
           ['Category', 'You', 'Average 18 Year Old'],
-          ['Food and Dining', 1000, 400],
-          ['Transportation', 1170, 460],
-          ['Utilities', 660, 1120],
-          ['Clothing', 1030, 540],
-          ['Entertainment', 1030, 540],
-          ['Other', 1030, 540]
+          ['Food and Dining', 38.30, 35],
+          ['Transportation', 12.01, 10],
+          ['Utilities', 0, 4],
+          ['Clothing', 146.25, 70],
+          ['Entertainment', 20.50, 20],
+          ['Other', 100.01, 100]
         ]);
 
         var options = {
