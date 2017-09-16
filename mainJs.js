@@ -12,7 +12,7 @@ google.charts.load('current', {'packages':['corechart']});
           ['Utilities',  2],
           ['Clothing', 2],
           ['Entertainment', 2],
-          ['Other',   7]
+          ['Other',7]
         ]);
 
         var options = {
