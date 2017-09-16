@@ -11,20 +11,56 @@ body {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  font-family: 'Dosis', sans-serif;
 }
 div.logIn {
-  height: 500px;
+  height: 375px;
   width: 500px;
-  background-color: white;
+  background-color: #7f8184;
   position: absolute;
     top: 50%;
     left: 25%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-  border-radius: 5px;
+  border-radius: 20px;
+  box-shadow: 0;
+  transform: translate();
 }
 
 input.input {
-  background-color: grey;
+  background-color: #d1d3d6;
   border-radius: 5px;
+  width: 250px;
+  font-size: 20px;
+}
+.row {
+  margin: 22px 0 22px 0;
+}
+.signin {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.eachintxt {
+  text-align: right;
+  color: white;
+  font-size: 20px;
+}
+.signup {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
