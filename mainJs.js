@@ -15,9 +15,12 @@ function drawChart() {
     ]);
 
     var options = {
-        title: 'Spending'
-        is3D: true
-    }
+        title: 'My Daily Activities'
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+     }
 };
 
 function drawChart() {
